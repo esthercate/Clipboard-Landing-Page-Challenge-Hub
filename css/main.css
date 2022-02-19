@@ -27,6 +27,27 @@ body {
 .container {
   max-width: 375px;
   text-align: center;
-  padding: 2rem;
+  padding: 0 .9rem;
+}
+
+h1, h2, h3, h4 {
+  color: #4c545d;
+}
+
+p {
+  color: #9fabb2;
+}
+
+.heading {
+  background: url("../images/bg-header-mobile.png") no-repeat;
+  background-size: contain;
+}
+
+.heading .hero .logo {
+  padding: 5rem 0;
+}
+
+.heading .hero .header span {
+  display: block;
 }
 /*# sourceMappingURL=main.css.map */

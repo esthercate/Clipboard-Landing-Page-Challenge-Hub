@@ -14,6 +14,7 @@ $Grayish-Blue: hsl(201, 11%, 66%);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body {
@@ -28,5 +29,34 @@ body {
 .container {
     max-width: 375px;
     text-align: center;
-    padding: 2rem;
+    padding: 0 .9rem;
+}
+
+h1, h2, h3, h4 {
+    color: $Dark-Grayish-Blue;
+}
+
+p {
+    color: $Grayish-Blue;
+}
+
+.heading {
+    background: url("../images/bg-header-mobile.png") no-repeat;
+    background-size: contain;
+
+    .hero {
+       
+        .logo {
+            padding: 5rem 0;
+            
+        }
+
+        .header {
+
+            span {
+                display: block;
+            }
+        }
+    }
+
 }
